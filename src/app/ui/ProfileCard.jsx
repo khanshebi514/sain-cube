@@ -9,7 +9,7 @@ export default function ProfileCard({designation, title, imgUrl}) {
         <Image src={imgUrl} width={222} height={230} alt="this is image" className="object-cover w-full h-full transition-all duration-500 rounded-t-full group-hover:rounded-t-none"/>
     </div>
     <div className="w-full p-2 py-5">
-        <h1 className="text-[25px] font-bold text-center text-white tracking-tighter">
+        <h1 className="text-[25px] font-semibold text-center text-white tracking-tighter">
            {title}
         </h1>
         <p className="mt-1 text-lg font-semibold text-gray-B5 text-center">
