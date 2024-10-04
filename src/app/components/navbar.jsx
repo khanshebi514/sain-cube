@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 
 export default function Navbar() {
   return (
-    <header className="h-[100px] border-b-[1px] border-b-gray-B5 fixed w-full top-0 bg-black">
+    <header className="h-[100px] border-b-[1px] border-b-gray-B5 fixed w-full top-0 bg-black z-50">
       <div className="container flex justify-between items-center">
       <div>
             <Image src={'/logo.svg'} alt="this is logo image" width={223} height={56}/>
