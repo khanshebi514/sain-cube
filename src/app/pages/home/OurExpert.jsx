@@ -29,7 +29,7 @@ export default function OurExpert() {
                     </h1>
 
                     <h1 className="text-[90px] md:text-[220px] font-bold uppercase text-[#ffffff10]">
-                    Let's Talk
+                    Lets Talk
                     </h1>
                     <div className="w-[250px] h-[250px] rounded-full bg-[#121212] border-[1px] border-gray-600 absolute top-[60%] left-[40%] hidden lg:flex justify-center items-center ">
                         <h3 className="text-white text-[25px] font-semibold">
