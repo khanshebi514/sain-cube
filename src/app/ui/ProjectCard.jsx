@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProjectCard({ title, industry, ImgUrl, video }) {
   return (
-    <div className="w-full md:max-w-[390px] h-[360px] bg-[#161519] rounded-md cursor-pointer">
+    <div className="w-full md:max-w-[390px] h-[390px] md:h-[370px]  bg-[#161519] rounded-md cursor-pointer">
       <div className="w-full">
         <div className="w-full h-[250px]">
           {!video ? (

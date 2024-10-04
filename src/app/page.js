@@ -5,6 +5,7 @@ import Services from './pages/home/Services'
 import AiProjects from './pages/home/AiProjects'
 import OurExpert from './pages/home/OurExpert'
 import Footer from './components/Footer'
+import BreedCrumb from './components/BreedCrumb'
 
 export default function Home() {
   return (
