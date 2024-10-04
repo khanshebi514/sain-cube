@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +20,44 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: "Saira", sans-serif;
+}
+
+@layer utilities{
+  .title{
+    @apply text-3xl md:text-4xl lg:text-5xl font-[600] capitalize tracking-wide
+  }
+  .main-heading{
+    @apply text-3xl md:text-4xl lg:text-[42px] lg:leading-6 tracking-wide capitalize
+  }
+  .heading{
+    @apply text-3xl md:text-4xl lg:text-[42px] tracking-wide capitalize
+  }
+
+  .paragraph{
+    @apply text-base leading-7 tracking-wide capitalize
+  }
+}
+
+.nav-link{
+    color: white;
+    display: block;
+    text-transform: capitalize;
+    padding: 32px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all .5s ease-out 0s;
+    position: relative;
+}
+
+.container{
+  max-width: 1480px;
+  margin: auto;
+  padding: 10px;
+}
+
+.strokeme {
+  color: #22262a;
+  text-shadow: -1px -1px 0 #f2f2f20e, 1px -1px 0 #f2f2f20e, -1px 1px 0 #f3f3f311, 1px 1px 0 #f3f3f325;
 }
