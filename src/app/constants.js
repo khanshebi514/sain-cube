@@ -207,3 +207,71 @@ export const EXPERTS =[
         ImgUrl:'/experts/abdulhannan.jpg'
     },
 ]
+
+export const ABOUT = {
+    'our-story':{
+        title:'Discover Our Story',
+        description:(
+            <>
+              <p className="text-[18px] leading-7 font-normal text-gray-200 mt-3">
+                SAINCUBE is a forward-thinking tech company that provides intelligent
+                solutions to help organizations stay ahead. We aim to give businesses
+                the tools they need to improve their operations and remain competitive
+                in today's fast-changing market.
+              </p>
+              <p className="text-[18px] leading-7 font-normal text-gray-200 mt-3">
+                We started as a group of tech enthusiasts solving real-world problems.
+                We saw that success in modern business meant embracing new technologies
+                as a key strategy. Our services cover a range of areas, including data
+                analysis, automated learning systems, and advanced computing techniques.
+              </p>
+        
+              <p className="text-[18px] leading-7 font-normal text-gray-200 mt-3">
+                At SAINCUBE, we work with all kinds of businesses, from small startups
+                to large corporations, across many industries including healthcare,
+                finance, and more. We're driven by our love for innovation, our
+                commitment to doing great work, and our desire to make a positive
+                difference in the world.
+              </p>
+        
+              <p className="text-[18px] leading-7 font-normal text-gray-200 mt-3">
+                We're here to help businesses not just keep up with change, but lead the
+                way. Join us in shaping a smarter future for your organization.
+              </p>
+            </>
+          )
+    },
+
+    'our-principle':{
+        title:"Guiding Principles That Shape Our Company's Identity",
+        description:(<p className="text-[18px] leading-7 font-normal text-gray-200 mt-3">These are the beliefs that shape who we are, how we work, and why we do what we do every day.</p>),
+        components:[
+        {
+            key:'01',
+            title:"Client Value",
+            description:"We're all about making our clients happy. That means going above and beyond to deliver real, measurable results that actually help their business grow."
+        },
+        {
+            key:'02',
+            title:"People Driven",
+            description:"We put people first. Our company's heart lies in caring for our team members, understanding our customers, and supporting our local communities."
+        },
+        {
+            key:'03',
+            title:"Integrity",
+            description:"We value openness, honesty, and ethical behavior. These principles help us build strong, lasting relationships with our team and partners."
+        },
+        {
+            key:'04',
+            title:"Accountability",
+            description:"We champion accountability, taking ownership of our actions and results while holding ourselves and our team to high performance standards."
+        },
+        {
+            key:'05',
+            title:"Collabration",
+            description:"Collaboration is our superpower. When we combine our diverse talents and experiences, we spark creativity and achieve more than we ever could alone."
+        },
+    ]
+    }
+}
+    

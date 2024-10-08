@@ -10,12 +10,10 @@ import BreedCrumb from './components/BreedCrumb'
 export default function Home() {
   return (
     <main>
-      <Navbar/>
       <Hero/>
       <Services/>
       <AiProjects/>
       <OurExpert/>
-      <Footer/>
     </main>
   )
 }
