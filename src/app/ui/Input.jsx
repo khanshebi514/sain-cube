@@ -20,7 +20,9 @@ export default function Input({
           placeholder={placeholder}
           type={type}
           {...props}
+          
         />
+        
 
         {icon ? (
           <a className="w-[70px] h-full bg-primary text-center flex justify-center items-center cursor-pointer">
