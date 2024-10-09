@@ -3,7 +3,7 @@ export default function Input({
   placeholder,
   icon,
   label,
-  name,
+  ...props
 }) {
   return (
     <div className="w-full">
@@ -19,8 +19,7 @@ export default function Input({
           }`}
           placeholder={placeholder}
           type={type}
-          name={name}
-          id={name}
+          {...props}
         />
 
         {icon ? (
