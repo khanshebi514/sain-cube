@@ -3,7 +3,7 @@ import { GoDotFill } from "react-icons/go";
 import { LuArrowUpFromDot } from "react-icons/lu";
 export default function BreedText({heading, link, description}) {
   return (
-    <div className="py-10">
+    <div className="px-5 py-10">
       <div className="flex justify-center items-center gap-5 flex-col">
       <div className="w-[170px] h-[35px] bg-green-900 flex justify-center">
         <div className="flex justify-around items-center gap-2">
@@ -14,7 +14,7 @@ export default function BreedText({heading, link, description}) {
       </div>
       
       <div className="space-y-5">
-        <h1 className="title text-primary text-center text-nowrap">{heading}</h1>
+        <h1 className="title text-primary text-center md:text-nowrap">{heading}</h1>
         <p className="text-white font-normal text-base text-center">{description}</p>
         <div className="flex justify-center items-center gap-3">
         <Link href='/' className="text-primary">Home</Link>

@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="">
             <NavItem/>
         </div>
-        <div>
+        <div className="hidden sm:block">
             <Button btnText={'contact us'} href='/contact' textOnly anchor/>
         </div>
       </div>

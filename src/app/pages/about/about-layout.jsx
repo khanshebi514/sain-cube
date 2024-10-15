@@ -1,6 +1,6 @@
 export default function AboutLayout({ heading, description, children, background }) {
   return (
-    <div className=" py-20 "
+    <div className="px-5 py-20 "
     style={{
       background:background
     }}>

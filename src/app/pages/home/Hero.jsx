@@ -11,7 +11,7 @@ export default function Hero() {
         }}
       >
         <div className="container">
-          <div className="mt-[13%] flex justify-center">
+          <div className="mt-[35%] md:mt-[13%] flex justify-center">
             <div className="lg:w-[1069px] xl:w-full flex items-center flex-col gap-10 w-full">
               <div className="bg-[#2fec7e] rounded-lg p-2 w-fit">
                 <span className="text-base md:text-[18px] lg:text-[20px] font-[500]">
