@@ -12,7 +12,7 @@ export default function Services() {
         <div className="mt-10">
         <div className='container flex justify-center gap-5 flex-wrap'>
           {SERVICES.map((service, index)=>
-          <ServiceCard key={index} index={index} title={service.title} description={service.title} points={service.points}/>
+          <ServiceCard key={index} index={index+1} title={service.title} description={service.description} points={service.points}/>
           )}
         </div>
         </div>

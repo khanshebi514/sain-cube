@@ -1,8 +1,12 @@
+'use client'
 import { SERVICES } from "@/app/constants";
 import Button from "@/app/ui/Button";
 import ServiceCard from "@/app/ui/ServiceCard";
+import { useEffect } from "react";
 
 export default function Services() {
+
+
   return (
     <section className="bg-[#1e1c22]">
         <div className="container">
@@ -16,6 +20,7 @@ export default function Services() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 self-center">
                     {
                         SERVICES.slice(0, 3).map((service, index)=>
+                       
                             <ServiceCard key={index} index={`${index+1}`} title={service.title} description={service.description} points={service.points}/>
                         )
                     }

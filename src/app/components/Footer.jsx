@@ -34,10 +34,10 @@ export default function Footer() {
                     <IconLink icon={<BiLogoTelegram size={25} className="text-primary"/>} text={'Say Hello'}/>
                     <ul>
                     <Link href={'/'} className="text-base font-normal text-gray-500 hover:text-primary pt-2 block">
-                    ceo@saincube.com
+                    ceo@DEVSHAPPERS.com
                     </Link>
                     <Link href={'/'} className="text-base font-normal text-gray-500 hover:text-primary pt-2 block">
-                    cto@saincube.com
+                    cto@DEVSHAPPERS.com
                     </Link>
                     </ul>
                     
@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
 
         <div className="w-full h-[1px] bg-gray-700"></div>
-        <p className="text-white mt-5">©Copyright 2024 <span className="text-lg hover:text-primary">SAINCUBE</span></p>
+        <p className="text-white mt-5">©Copyright 2024 <span className="text-lg hover:text-primary">DEVSHAPPERS</span></p>
       </div>
     </footer>
   );

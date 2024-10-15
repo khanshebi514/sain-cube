@@ -11,9 +11,9 @@ export default function AboutUs() {
         <div className="container">
           <BreedCrumb
             link={"About"}
-            heading={"About SAINCUBE"}
+            heading={"About DEVSHAPPERS"}
             description={
-              "SAINCUBE helps companies work smarter and make better decisions using advanced technology."
+              "DEVSHAPPERS helps companies work smarter and make better decisions using advanced technology."
             }
           />
         </div>
