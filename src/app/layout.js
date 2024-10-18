@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={saira.className}>
+        <div id='modal'></div>
         <Navbar/>
         {children}
         <Footer/>

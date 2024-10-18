@@ -1,7 +1,21 @@
+'use client'
+import Modal from "@/app/ui/Modal";
 import Button from "@/app/ui/Button";
+import { useState } from "react";
 import { PiArrowCircleUpRightThin } from "react-icons/pi";
 
 export default function Hero() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+
+  const toggleModal = () => {
+    
+    setIsModalOpen((prev)=>!prev);
+  };
+
+
+  console.log(isModalOpen);
+  
   return (
     <section className="bg-[#1d1d1d]">
       <div
@@ -41,8 +55,10 @@ export default function Hero() {
                 </p>
               </div>
 
+              {isModalOpen ? <Modal toggleModal={toggleModal}/> : null}
+
               <div className="flex justify-center items-center gap-10">
-                <Button btnText={"Free Consultancy"} href="/" anchor />
+                <Button btnText={"Free Consultancy"} onClick={toggleModal}/>
                 <a
                   className="text-white flex justify-center items-center gap-3 hover:text-primary"
                   href="/"
@@ -56,6 +72,7 @@ export default function Hero() {
                   <span>Explore More</span>
                 </a>
               </div>
+
             </div>
           </div>
         </div>

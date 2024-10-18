@@ -1,5 +1,5 @@
 
-export default function Modal({ message, isSuccess, onClose }) {
+export default function ModalMessage({ message, isSuccess, onClose }) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center border-2 border-primary">
     <div className="bg-black p-5 rounded-lg shadow-lg max-w-[400px] w-full">

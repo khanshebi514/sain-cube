@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import Button from "../ui/Button";
 import Input from "../ui/Input";
-import Modal from "./Modal";
+import ModalMessage from "./ModalMessage";
+
 
 export default function ContactUs() {
  
@@ -154,7 +155,7 @@ export default function ContactUs() {
           <Button type="submit" btnText="Submit" />
         </div>
         {modal.show && (
-          <Modal
+          <ModalMessage
             message={modal.message}
             isSuccess={modal.isSuccess}
             onClose={() => setModal({ ...modal, show: false })}

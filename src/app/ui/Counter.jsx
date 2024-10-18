@@ -48,7 +48,7 @@ const deskTopStyling = {fontSize:'2em', color:'#fff', fontWeight:'600' , font:'O
 const styling = deskTopStyling
   const paraStyle = 'text-wrap text-sm opan-sans text-[#b5b5b5]'
   return (
-    <div className={`w-full grid grid-cols-1 md:grid-cols-3 bg-[#1b1f23] place-items-center rounded-lg rounded-bl-none py-[100px]`}>
+    <div className={`w-full grid grid-cols-1 md:grid-cols-3 bg-[#1b1f23] place-items-center rounded-lg rounded-bl-none py-[100px] px-2`}>
       <div className="col-span-1">
         <h1 className="title text-white">Our States</h1>
         <p className="text-sm font-light text-gray-B5">Achieved milestones: strategic partnerships, <br /> global recognition, innovation, growth, and excellence.</p>
