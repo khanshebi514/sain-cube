@@ -79,7 +79,7 @@ export default function Modal({ toggleModal }) {
 
   return createPortal (
     <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-30 z-10">
-      <div className=" bg-[#555] p-8 rounded shadow-lg" style={{maxWidth:'500px'}}>
+      <div className=" bg-[#555] p-8 rounded shadow-lg w-[300px] md:w-[500px]">
         <h2 className="text-2xl mb-4 text-primary">Free Consultancy</h2>
         <p className="text-base font-semibold text-white">
           Enter your details here:
