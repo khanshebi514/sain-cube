@@ -34,11 +34,13 @@ export default function Footer() {
                     <IconLink icon={<BiLogoTelegram size={25} className="text-primary"/>} text={'Say Hello'}/>
                     <ul>
                     <Link href={'/'} className="text-base font-normal text-gray-500 hover:text-primary pt-2 block">
-                    ceo@DEVSHAPPERS.com
+                    info@devshappers.com
                     </Link>
-                    <Link href={'/'} className="text-base font-normal text-gray-500 hover:text-primary pt-2 block">
-                    cto@DEVSHAPPERS.com
+                    <Link href={'https://wa.me/+923400159439'} className="text-base font-normal text-gray-500 hover:text-primary pt-2 block">
+                    +923400159439
                     </Link>
+        
+                   
                     </ul>
                     
                 </div>
